@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     steps:
     - uses: actions/checkout@v3
@@ -58,7 +58,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1.0.7
       with:
         # Artifact name
-        name: stack-detector # optional, default is github-pages
+        name: win32-stack-detector # optional, default is github-pages
         # Path of the directory containing the static assets.
         path: onefile/ # default is _site/
         # Duration after which artifact will expire in days.
