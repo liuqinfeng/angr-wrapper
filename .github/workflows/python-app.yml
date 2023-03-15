@@ -35,7 +35,7 @@ jobs:
         # Artifact name
         name: stack-detector # optional, default is github-pages
         # Path of the directory containing the static assets.
-        path: onefile/stack-detector # default is _site/
+        path: onefile/ # default is _site/
         # Duration after which artifact will expire in days.
         retention-days: 30 # optional, default is 1
         
